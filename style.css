@@ -1,49 +1,56 @@
-#fancy {
+*{
+    box-sizing: border-box;
+}
 
-    color:rgb(255, 5, 213);
+
+header {
+    background-color: darkorchid;
+    color:white;
+    padding: 30px;
+    text-align:center;
+    font-size:35px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+a {
+    color: white;
+}
+
+nav {
+    
+    float: left;
+    width: 30%;
+    height: 300px;
+    background: purple;
+    padding: 20px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: white;
+    height: 300px;
+
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
     text-align: center;
-    font-weight: 100;
-    font-size: 50px;
-    font-family: italic;
-    font-stretch: expanded; 
-    text-decoration: underline;
-    line-height: 100px
-    
-    }
-    #hi {
-        color:rgb(0, 255, 34);
-    text-align: center;
-    font-weight: 150;
-    font-size: 50px;
-    font-family: georgia;
-    font-stretch: expanded; 
-    text-decoration: underline;
-    line-height: 100px
-    }
-    
-    
-    
-        #text {
-            color:aqua;
-            font-family: georgia;
-            font-size: 40px;
-            text-decoration: underline;
-        }
-    
-    
-        .square {
-            width: 200;
-            height: 200;
-            padding: 10px;
-            display: inline-block;
-            border: 2px solid red;
-        }
-    
-        .square h1 {
-             color:deepskyblue
-        }
-    
-        .border {
-            width: 200;
-            height: 200;
-        }
+    color: white;
+}
