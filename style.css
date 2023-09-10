@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'custom';
+    src: url(Cheese\ Burger.otf);
+}
+
+
 *{
     box-sizing: border-box;
 }
@@ -9,7 +15,7 @@ header {
     padding: 30px;
     text-align:center;
     font-size:35px;
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'custom';
 }
 
 a {
