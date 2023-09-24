@@ -3,6 +3,24 @@
     src: url(Cheese\ Burger.otf);
 }
 
+.navbar {
+    width: 100%;
+    background-color: violet;
+    padding: 20px;
+    font-family: 'custom';
+    font-size: 30px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.container-fluid {
+    width: 100%;
+    background: violet;
+}
+
 
 *{
     box-sizing: border-box;
